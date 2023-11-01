@@ -1,10 +1,8 @@
 h1{
 color:fuchsia;
-text align: center;
 }
 body{
 background-color:rgba(120,110,110,0.8);
-text align: center;
 }
 h2{
 color:fuchsia;
@@ -13,7 +11,7 @@ h3{
 color:navy;
 }
 .animation{
-width:250px;height:250px;
+width:200px;height:250px;
 }
 #animation{
 width:200px;height:250px;
@@ -34,6 +32,11 @@ font-size:1.5vw;
 #happy{
 color:yellow;
 }
-#ita{
+.ita{
 font-style:italic;
+}
+.mood{
+font-weight:bold;
+color:yellow;
+font-style:Arial;
 }
