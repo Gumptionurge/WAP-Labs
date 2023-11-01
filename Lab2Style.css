@@ -44,3 +44,7 @@ font-weight:bold;
 color:yellow;
 font-family:Arial;
 }
+.upside{
+display:flex;
+flex-direction:column-reverse;
+}
