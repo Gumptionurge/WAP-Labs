@@ -17,9 +17,6 @@ width:200px;height:250px;
 #animation{
 width:200px;height:250px;
 }
-a:hover{
-color:yellow;
-}
 a:link{
 color:red
 }
@@ -28,6 +25,10 @@ color:lime;
 }
 a{
 text-decoration:none;
+}
+a:hover{
+color:yellow;
+text-decoration:underline;
 }
 li{
 font-family:Courier-New;
