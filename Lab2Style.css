@@ -1,5 +1,6 @@
 h1{
 color:fuchsia;
+text-indent: center;
 }
 body{
 background-color:rgba(120,110,110,0.8);
@@ -24,6 +25,9 @@ color:red
 }
 a:visited{
 color:lime;
+}
+a{
+text-decoration:none;
 }
 li{
 font-family:Courier-New;
