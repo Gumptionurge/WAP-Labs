@@ -67,9 +67,7 @@ background-color:gray;
          border:2px solid red;
          border-radius: 15px;
          cursor: pointer;
-         button-align:right;
-
-       }
+           }
 
 #bottom:hover {
   background-color: gray;
@@ -78,8 +76,6 @@ background-color:gray;
 
 .right{
 text-align:right;
-text-size:2em;
-text-weight:bold;
 }
 
 #up {
