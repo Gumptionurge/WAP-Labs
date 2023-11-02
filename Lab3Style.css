@@ -30,10 +30,11 @@ border-width:12px;
 }
 
 table,th,td{
-border-color:navy;
+border-color:green;
 border-style:solid;
-border-size:10px;
+border-width:5px;
 background-color:linen;
+border-collapse:collapse;
 }
 
 
@@ -71,7 +72,7 @@ background-color:gray;
        }
 
 #bottom:hover {
-  background-color: #2980b9; /* Darker background color on hover */
+  background-color: gray;
 }
 
 
@@ -99,18 +100,4 @@ span.see {
 
 #tot{
 text-align:right;
-}
-
-.minus-button,
-.plus-button {
-    padding: 5px 10px;
-    background-color: gray;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-.quantity-input {
-    width: 90px;
-    text-align: center;
 }
