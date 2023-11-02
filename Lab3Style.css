@@ -95,3 +95,18 @@ span.see {
 #tot{
 text-align:right;
 }
+
+#validatorLinks{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#validatorLinks a {
+    margin-bottom: 10px;
+}
+
+#validatorLinks img {
+    width: 120px;
+    margin-bottom: 5px;
+}
