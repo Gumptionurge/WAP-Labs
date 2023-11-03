@@ -1,0 +1,42 @@
+#head{
+padding: 10px;
+    background-color: yellowgreen;
+    font-family: Arial;
+    font-size: 1.5em;
+}
+
+
+body{
+font-family:verdana;
+}
+table{
+width:100%;
+}
+input,select.wide,textArea{
+width:80%
+}
+.underlineIt{
+text-decoration:underline;
+}
+.tallList{
+height:100px;
+}
+
+td{
+margin:10% 10% 20% 40%;
+}
+
+footer {
+    background-color: lightgrey;
+    text-align: center;
+    padding: 10px;
+}
+
+#footer-buttons button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+}

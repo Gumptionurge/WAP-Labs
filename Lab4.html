@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab 4 Assignment</title>
+    <link href="Lab4Style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<p id="head">Workshop Registration <select><option disabled selected>More Actions</option><option>Email Organizer</option></select></p>
+<table>
+    <tr><td class="underlineIt" colspan="2">Register while seats are available</td><td colspan="2" class="underlineIt"> Lunch</td></tr>
+<tr>    <td>First Name</td>    <td><input type="text" name="firstName" size="30" maxlength="20" required></td> <td>Meal Preferance</td>
+    <td><select><option>Vegetarian</option><option>Fasting</option></select></td> </tr>
+
+    <tr>    <td>Last Name</td> <td><input type="text" name="lastName" size="30" maxlength="20" required> <td colspan="2"><span class="underlineIt">Payment Details</span></td></tr>
+    <tr>    <td>Company/Institution</td><td><input type="text" required name="company" size="20" maxlength="15"> <td colspan="2" rowspan="2"> Payment Mode
+        <label><input type="radio" name="payment" value="Cash">Cash</label>
+        <label><input type="radio" name="payment" value="Cheque">Cheque</label>
+        <label><input type="radio" name="payment" value="Draft">Draft</label>
+    </td></tr>
+    <tr>    <td>Address</td><td><textArea class="tallList" name="address"></textArea> </td> </tr>
+    <tr>    <td>city</td><td><input type="text" name="city" size="20" maxlength="15"> <td> DD Cheque Number </td>
+        <td><input type="text" name="cheque" size="20" maxlength="15"> </td></tr>
+    <tr>    <td>State/Province/Region</td><td><select class="wide"><option disabled selected>-select-</option><option>Central</option> <option>Western</option>
+        <option>Northern</option><option>Eastern</option><option>Iowa</option><option>Nebraska</option>
+        <option>Idaho</option><option>Wyoming</option><option>Montana</option><option>North Dakota</option>
+        <option>Wisconsin</option><option>South Dakota</option><option>Alaska</option><option>Maine</option>
+        <option>Oklahoma</option>
+    </select></td> <td>Drawn on: </td><td><input type="text" name="date" size="20" maxlength="15"> </td> </tr>
+    <tr>    <td>Country</td><td><select class="wide"><option disabled selected>-select-</option><option>USA</option> <option>Brazil</option>
+        <option>Canada</option><option>Colombia</option><option>UK</option><option>France</option>
+        <option>Saudi Arabia</option><option>Uganda</option><option>Kenya</option><option>Botswana</option>
+        <option>Algeria</option><option>Burma</option><option>Vietnam</option><option>Suriname</option>
+        <option>Fiji</option>
+    </select></td> <td>Payable at: </td><td><input type="text" name="pay-point" size="20" maxlength="15"> </td></tr>
+
+    <tr>   <td>Email</td><td><input required type="email" name="email" size="20" maxlength="15" pattern="[a-z0-9._+\-
+]+@[a-z0-9.\-]+\.[a-z]{2,3}"> </td> <td></td> <td></td></tr>
+    <tr>    <td>Phone Number</td><td><input type="text" name="phone" size="20" maxlength="15"> <td></td> <td></td></tr>
+</table>
+<footer>
+
+    <div id="footer-buttons">
+        <button class="submit-button">Submit</button>
+        <button class="reset-button">Reset</button>
+    </div>
+</footer>
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fgumptionurge.github.io%2FWAP-Labs%2FLab3">
+    <img src="htmlchecker.png" width="90" alt="html checker">
+</a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fgumptionurge.github.io%2FWAP-Labs%2FLab3&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+    <img src="htmlchecker.png" width="90" alt="html checker">
+</a>
+</body>
+</html>
