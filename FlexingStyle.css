@@ -1,0 +1,14 @@
+.flexIt{
+display:flex;
+flex-direction:row-reverse;
+justify-content:space-evenly;
+gap:10px;
+}
+.align{
+text-align:justify;
+}
+#one,#two{
+width:50%;
+padding:10px;
+border: 2px solid darkred;
+}
