@@ -1,9 +1,9 @@
-function  foo(x)  {
+function  foo(a)  {
 
-    let m;
+         let m;
 
 console.log(x, y);
-
+x=20;
 if(x > 5){
 
 var  y  =  5; m = x + y;
@@ -14,7 +14,7 @@ let  z  =  10; m = z;
 
 }
 
-x = m+1;
+//x = m;
 
 console.log(x, y);
 
