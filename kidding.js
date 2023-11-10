@@ -56,5 +56,16 @@ function ref2(num1){
     console.log(1+1+num1);
 }
 referee=ref2;
-setTimeout(referee,5000,5);
+setTimeout(referee,1000,5);
 console.log("asynchronous fucker");
+console.log("********************---------------------*****************************");
+"use strict"
+let ub = {
+    firstName: "John",
+    sayHi() {
+    console.log(`Hello, ${this.firstName}!`);
+    }
+    };
+    ub.sayHi(); 
+    setTimeout(ub.sayHi(),-10);   
+    setTimeout(function(){ ub.sayHi()},-10); 
