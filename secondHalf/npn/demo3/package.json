@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "eslint": "^8.53.0",
-    "modules": "^0.4.0",
-    "moment": "^2.29.4"
-  }
-}
