@@ -109,7 +109,7 @@ console.log(rabbit.jump);
 console.log(rabbit.eat);
 */
 let animal={eat:true}
-const rabbit={jump:"can jump high"}
+let rabbit={jump:"can jump high"}
 console.log(rabbit.jump);
 rabbit=Object.create(animal);
 console.log(rabbit.jump);

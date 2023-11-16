@@ -10,6 +10,7 @@ let group = {
            let funct= function (student) {
                 console.log(this.title + ": " + student);
             };
+            
             funct.call(newThis,stu);
         } 
 
