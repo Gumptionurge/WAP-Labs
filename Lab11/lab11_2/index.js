@@ -8,7 +8,9 @@ x.pipe(res);
 
 
 
-/**TAKE FOREVER TO LOAD */
+/**TAKE FOREVER TO LOAD
+ * so we use createReadStream
+ */
 // const http=require('http');
 // const server=http.createServer();
 // server.on('require',(req,res)=>{
