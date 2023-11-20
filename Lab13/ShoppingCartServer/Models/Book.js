@@ -44,7 +44,7 @@ static getBookById(identity){
     return books.find(p => p.id == identity);
 }
 
-static addBook(){
+addBook(){
     this.id = counter++;
     books.push(this);
 }

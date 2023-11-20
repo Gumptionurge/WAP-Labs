@@ -6,7 +6,7 @@ const app = express();
 
 app.use(express.json());
 
-app.use(bookRouter);
+app.use('/getAllBooks',bookRouter);
 
 
 app.use((err, req, res, next)=>{
