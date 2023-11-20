@@ -2,6 +2,7 @@ let express=require('express');
 let route=express.Router();
 
 let controller=require('../Controllers/BookController');
+
 route.get('/getAllBooks',controller.getAllBooks);
 
 route.get('/getAllBooks/getBookById/:bid',controller.getBookById);

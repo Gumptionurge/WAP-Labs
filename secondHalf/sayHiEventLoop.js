@@ -88,19 +88,41 @@
 // console.log(result);
 
 
-console.log('start');
-const result = new Promise((resolve, reject) => {
-  console.log(1);
-  setTimeout(() => reject('Whoops!'), 1000);
-})
-  .then(res => {
-    console.log(res); // Log the resolved value
-    return res;        // Pass the value to the next chain
-  })
-  .catch(error => {
-    console.error(error); // Log the caught error
-    return 'Error Happens';
-  })
-  .finally(() => console.log('finally block executed'));
-console.log(result); // Output: Promise { <pending> }
-console.log('end');
+// console.log('start');
+// const result = new Promise((resolve, reject) => {
+//   console.log(1);
+//   setTimeout(() => reject('Whoops!'), 1000);
+// })
+//   .then(res => {
+//     console.log(res); // Log the resolved value
+//     return res;        // Pass the value to the next chain
+//   })
+//   .catch(error => {
+//     console.error(error); // Log the caught error
+//     return 'Error Happens';
+//   })
+//   .finally(() => console.log('finally block executed'));
+// console.log(result); // Output: Promise { <pending> }
+// console.log('end');
+
+
+// let dr =new Promise((res,rej)=>{
+//   res('fuck off')
+// });
+
+// dr.then(
+//   console.log);
+
+new Promise((rej,res)=>{
+  let rand =Math.random();
+  console.log("start",rand);
+  if(rand>0.5){
+    res("Success");
+  }else{
+    rej("Epic fail");
+  }
+
+}).then((data)=>{console.log(data, ' Big time success')}).catch(error=>console.log(error,' Big time error'));
+
+
+

@@ -1,0 +1,30 @@
+GET http://localhost:3000/getAllBooks
+
+
+###
+GET http://localhost:3000/getAllBooks/getBookById/3
+
+###
+POST http://localhost:3000/getAllBooks/addBook
+Content-Type: application/json
+
+{
+    "title": "Art of War",
+    "ISB": 1234567,
+    "publishDate":"1/1/1500",
+    "author": "Sun Zu"
+}
+
+###
+PUT http://localhost:3000/getAllBooks/getBookById/3
+Content-Type: application/json
+
+{
+    "title": "I did it my way",
+    "ISB": 1671948,
+    "publishDate":"1/1/1991",
+    "author": "Frank Sinatra"
+}
+
+###
+DELETE http://localhost:3000/getAllBooks/4
