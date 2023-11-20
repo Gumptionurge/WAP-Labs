@@ -10,7 +10,7 @@ Content-Type: application/json
 
 {
     "title": "Art of War",
-    "ISB": 1234567,
+    "ISBN": 1234567,
     "publishDate":"1/1/1500",
     "author": "Sun Zu"
 }
@@ -21,7 +21,7 @@ Content-Type: application/json
 
 {
     "title": "I did it my way",
-    "ISB": 1671948,
+    "ISBN": 1671948,
     "publishDate":"1/1/1991",
     "author": "Frank Sinatra"
 }
